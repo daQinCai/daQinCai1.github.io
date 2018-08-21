@@ -1,19 +1,349 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>hahaha</title>
 </head>
 <style type="text/css">
+	
+</style>
+<body>
+	
+	
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>风景</title>
+	<style type="text/css">
 	.title{
 		font-size: 30px;
 		color: black;
 		background: pink;
 		text-align: center;
 	}
-</style>
+	body,html{
+		margin: 0;
+		padding: 0;
+	}
+		.sky{
+			width: 100%;
+			height: 300px;
+			animation: sky 10s ease-in-out infinite;
+		}
+		@keyframes sky{
+			0%{background: skyblue;}
+			20%{background: skyblue;
+			opacity: 0.8;}
+			40%{background: skyblue;
+			opacity: 0.7;}
+			50%{background: skyblue;
+			opacity: 0.5;}
+			60%{background: skyblue;
+			opacity: 0.3;}
+			80%{background: black;
+			opacity: 0.5;}
+			100%{background: black;
+			opacity: 0.7;}
+		}
+		.sun{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			animation: mysun 5s ease-in-out infinite;
+		}
+		@keyframes mysun{
+			0%{background: #f0270c;
+				position: absolute;
+				left: 50px;
+				top: 180px;
+				width: 200px;
+				height: 200px;
+			}
+			10%{background: #e42e15;
+				opacity: 0.9;
+				position: absolute;
+				left: 90px;
+				top: 150px;
+				width: 180px;
+				height: 180px;
+				}
+			20%{background: #e42e15;
+				opacity: 0.8;
+				position: absolute;
+				left: 120px;
+				top: 140px;
+				width: 160px;
+				height: 160px;
+				}
+			30%{background: #e42e15;
+				opacity: 0.8;
+				position: absolute;
+				left: 150px;
+				top: 120px;
+				width: 140px;
+				height: 140px;
+				}
+			40%{background: #da3822;
+				opacity: 0.7;
+				position: absolute;
+				left: 170px;
+				top: 100px;
+				width: 110px;
+				height: 110px;
+				}
+			50%{background: #c93f2b;
+				opacity: 0.5;
+				position: absolute;
+				left: 210px;
+				top: 90px;
+				width: 100px;
+				height: 100px;
+				}
+			60%{background: white;
+				opacity: 0.3;
+				position: absolute;
+				left: 230px;
+				top:80px;
+				width: 120px;
+				height: 120px;
+				}
+			70%{background: #e42e15;
+				opacity: 0.8;
+				position: absolute;
+				left: 300px;
+				top:70px;
+				width: 140px;
+				height: 140px;
+				}
+			80%{background: white;
+				opacity: 0.5;
+				position: absolute;
+				left: 350px;
+				top: 60px;
+				width: 150px;
+				height: 150px;
+				}
+			100%{background: white;
+				opacity: 0.7;
+				position: absolute;
+				left: 450px;
+				top: 50px;
+				width: 200px;
+				height: 200px;
+				}
+		}
+		.club_one{
+			width:200px;
+			height: 40px; 
+			position: absolute;
+			border-radius: 15px;
+			animation:  club_one 10s ease-in-out infinite;
+		}
+		@keyframes club_one{
+			0%{background: white;
+				opacity: 0.8;
+				right: 120px;
+				top: 30px;
+			}
+			20%{background: white;
+				opacity: 0.8;
+				right: 120px;
+				top: 70px;}
+			40%{background: white;
+				opacity: 0.7;
+				right: 200px;
+				top: 90px;}
+			50%{background: white;
+				opacity: 0.5;
+				right: 270px;
+				top: 70px;}
+			60%{background: white;
+				opacity: 0.4;
+				right: 300px;
+				top: 30px;}
+			80%{background: white;
+				opacity: 0.3;
+				right: 360px;
+				top: 70px;}
+			100%{background: white;
+				opacity: 0;}
+		}
+		.water{
+			width: 100%;
+			height: 300px;
+			animation: water 10s ease-in-out infinite;
+		}
+		@keyframes water{
+			0%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+
+				
+			}
+			20%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0.8;
+				}
+			40%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0.7;
+				}
+			50%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0.5;
+				}
+			60%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0.4;
+				}
+			80%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0.3;
+				}
+			100%{background: linear-gradient(skyblue,#21c1f2,#39bfe8,#39bfe8,#39bfe8,#0adfe7,#0adfe7,#99bdbe,#343e3e);
+				opacity: 0;}
+		}
+		.bowen_one{
+			width: 200px;
+			height: 40px;
+			border-radius: 15px;
+			position: absolute;
+			animation: bowen_one 10s ease-in-out infinite;
+		}
+		@keyframes bowen_one{
+			0%{background: white;
+				opacity: 0.8;
+				right: 20px;
+				top: 400px;
+				width: 80px;
+				height: 30px;
+			}
+			20%{background: white;
+				opacity: 0.8;
+				right: 220px;
+				top: 400px;
+				width: 120px;
+				height: 10px;}
+			40%{background: white;
+				opacity: 0.8;
+				right: 220px;
+				top: 400px;
+				width: 120px;
+				height: 10px;}
+			50%{background: white;
+				opacity: 0.8;
+				right: 220px;
+				top: 400px;
+				width: 120px;
+				height: 10px;}
+			60%{background: white;
+				opacity: 0.5;
+				right: 300px;
+				top: 420px;
+				width: 80px;
+				height: 40px;}
+			80%{background: white;
+				opacity: 0.4;
+				right: 360px;
+				top: 400px;
+				width: 60px;
+				height: 10px;}
+			100%{background: white;
+				opacity: 0.8;
+				right: 20px;
+				top: 400px;
+				width: 80px;
+				height: 30px;}
+		}
+		.road{
+			width: 100%;
+			height: 300px;
+			background: linear-gradient(black,#f00e0e,#191515,#756b6b,#2f2727,#534a4a,black);
+			
+			
+		}
+		.car_main{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			/*background: red;*/
+			animation: car_main 10s linear infinite;
+			
+		}
+		@keyframes car_main{
+			0%{position: absolute;
+				top: 700px;
+				left: 100px;}
+			20%{position: absolute;
+				top: 700px;
+				left: 200px;}
+			40%{position: absolute;
+				top: 700px;
+				left: 300px;}
+			60%{position: absolute;
+				top: 700px;
+				left: 400px;}
+			80%{position: absolute;
+				top: 700px;
+				left: 500px;}
+			100%{position: absolute;
+				top: 700px;
+				left:600px;}
+			}
+		.top{
+			
+			width: 70px;
+			height: 35px;
+			background: pink;
+			margin: 0 auto;
+			border-radius: 15px;
+		}
+		.bottom{
+			width: 100px;
+			height: 35px;
+			background: yellow;
+			border-radius: 15px;
+			margin: 0 auto;
+		}
+		.kulou_one,.kulou_two {
+			float: left;
+			width: 30px;
+			height: 30px;
+			
+			border-radius: 30px;
+			background: url(img/1-150131001632928.jpg) no-repeat;
+			background-size: 100% 100%;
+			position: relative;
+			left: 55px;
+		}
+		.kulou_two{
+			left: 75px;
+		}
+		
+	</style>
+</head>
 <body>
-	
-	<div class="title">Welcome to my blog</div>
+<div class="title">Welcome to my blog</div>
+	<!--天空 -->
+	<div class="sky">
+		<div class="sun"></div>
+		<div class="club_one"></div>
+		<div class="club_two"></div>
+
+	</div>
+	<!--水 -->
+	<div class="water">
+		<div class="bowen_one"></div>
+		<div class="bowen_two"></div>
+	</div>
+	<!--路 -->
+	<div class="road">
+		<div class="car_main">
+			<div class="top"></div>
+			<div class="bottom"></div>
+			<div class="kulou_one"></div>
+			<div class="kulou_two"></div>
+		</div>
+	</div>
+	<!--树 -->
+	<div class="tree">
+		
+	</div>
 </body>
 </html>
